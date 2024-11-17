@@ -41,9 +41,9 @@ var variable =person.extend({
 * ig.SoundManger takes care of loading the sound to the game
 * ig.system takes care of statrting and stoping the game loop
 
-### X/X/XX:
-* Text
-
+### 11/17/2024:
+* This week I continuted to watch this YouTube chanel( https://youtu.be/Xyl-4FXMXJg?si=EL3BZE-U5Kfg8NOI) and I have used it to countine editing a small game that I have made a couble of weeks ago. What I edit was the img of the blocks in my game and I also changed some of the code because there was some erors like when the ball use to hit the wall it use to get stuck there. and right now I am still working on the issue of fixing my editor because it won't work on my ide so I had to use reblit but Icouldn't preview it there so I am tring to ask my friends and people on slack if they can help me with it .
+![alt text](<Screenshot 2024-11-03 1.27.24 PM.png>)
 
 <!--
 * Links you used today (websites, videos, etc)
