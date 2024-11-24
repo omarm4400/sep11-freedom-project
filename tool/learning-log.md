@@ -44,6 +44,10 @@ var variable =person.extend({
 ### 11/17/2024:
 * This week I continuted to watch this YouTube chanel( https://youtu.be/Xyl-4FXMXJg?si=EL3BZE-U5Kfg8NOI) and I have used it to countine editing a small game that I have made a couble of weeks ago. What I edit was the img of the blocks in my game and I also changed some of the code because there was some erors like when the ball use to hit the wall it use to get stuck there. and right now I am still working on the issue of fixing my editor because it won't work on my ide so I had to use reblit but Icouldn't preview it there so I am tring to ask my friends and people on slack if they can help me with it .
 ![alt text](<Screenshot 2024-11-03 1.27.24 PM.png>)
+### 11/24/24
+* This weak I finally got my weltmaster to work, so I tinkerd with it by adding some entities and seeing what they do.
+I also tried to make some blocks and made them collisions and I tried linking somce entites with collisoins. I watched this video (https://impactjs.com/documentation/video-tutorial-weltmeister) to teach me how to work with weltmaster, and it helped me know what each entity does .
+
 
 <!--
 * Links you used today (websites, videos, etc)
