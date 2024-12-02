@@ -48,6 +48,9 @@ var variable =person.extend({
 * This weak I finally got my weltmaster to work, so I tinkerd with it by adding some entities and seeing what they do.
 I also tried to make some blocks and made them collisions and I tried linking somce entites with collisoins. I watched this video (https://impactjs.com/documentation/video-tutorial-weltmeister) to teach me how to work with weltmaster, and it helped me know what each entity does .
 
+### 12/1/24
+* This week I've asked someone on slak to help me with some error that I faced in in impact, which was the entities folder, which I didn't have because when I cloned the impact rebo from githup there was supposed to be an entities folder, but I didn't have and when I asked someone on  (https://slack.com) he told me that I have to add it because its an important file that will help you control the entites you make. so I added it and I've added some entites inside like and added some variables to control the entites like the ig.input which helps you add some keyboard roles to the entitie.
+
 
 <!--
 * Links you used today (websites, videos, etc)
