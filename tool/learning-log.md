@@ -50,7 +50,8 @@ I also tried to make some blocks and made them collisions and I tried linking so
 
 ### 12/1/24
 * This week I've asked someone on slak to help me with some error that I faced in in impact, which was the entities folder, which I didn't have because when I cloned the impact rebo from githup there was supposed to be an entities folder, but I didn't have and when I asked someone on  (https://slack.com) he told me that I have to add it because its an important file that will help you control the entites you make. so I added it and I've added some entites inside like and added some variables to control the entites like the ig.input which helps you add some keyboard roles to the entitie.
-
+### 12/8/24
+This week I continued to work on weltmaster and I have used the entities that I have created to work with it on weltmaster, like the collision entites which I used a lot and I downloaded a photo of a block so I can asign it the collision entite. I felled out weltmaster with blocks so I can see how would they look and what will they do and I also downloaded some images to asign it to the other entites.
 
 <!--
 * Links you used today (websites, videos, etc)
