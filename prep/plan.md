@@ -1,7 +1,7 @@
 # Plan
 
-## Tool: 
-## Product: 
+## Tool: kaboom
+## Product:a shooting game
 
 ---
 
@@ -9,13 +9,18 @@
 
 #### MVP
 
-- [ ] Task (deadline: X)
-  - [ ] Subtask (deadline: X)
+- [ ] creat a background that fits the game(before the winter break ends)
+- [ ] create at least two charecters  (3/19)
+- [ ] work on the kewboard functions (3/23)
+- [ ] creat enemies (4/5)
+- [ ] creat weapons  (4/10)
+- [ ] create at least two leverls.(4/15)
+
 
 #### Beyond MVP
 
-- [ ] Task
-  - [ ] Subtask
+- [ ] add mmore charecters
+- [ ] create more levels.
 
 
 <!-- EXAMPLE
