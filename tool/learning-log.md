@@ -53,6 +53,8 @@ I also tried to make some blocks and made them collisions and I tried linking so
 ### 12/8/24
 This week I continued to work on weltmaster and I have used the entities that I have created to work with it on weltmaster, like the collision entites which I used a lot and I downloaded a photo of a block so I can asign it the collision entite. I felled out weltmaster with blocks so I can see how would they look and what will they do and I also downloaded some images to asign it to the other entites.
 
+3/2/24
+This week I started learning a new tool (kaboom), I didn't have enough time this week to explore kaboom, but I asked my friends who have used it on the best way to learn it and they all told me videos and website, so I found a chanel on youtube https://youtu.be/iRXI6ThRJvM?si=BoeCF6dPz19z81p7 and I watched the first steps and I wrote some information on my notes but I didn't have enough time to creat something with it.
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
