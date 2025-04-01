@@ -56,11 +56,14 @@ This week I continued to work on weltmaster and I have used the entities that I 
 3/2/24
 This week I started learning a new tool (kaboom), I didn't have enough time this week to explore kaboom, but I asked my friends who have used it on the best way to learn it and they all told me videos and website, so I found a chanel on youtube https://youtu.be/iRXI6ThRJvM?si=BoeCF6dPz19z81p7 and I watched the first steps and I wrote some information on my notes but I didn't have enough time to creat something with it.
 
-3/23.25
+3/23/25
 This week I continued on learning my new tool and I had the chance to try new things. After I diged a little deep into the kaboom website, and I learned things like how the text is used, rotation and key pressed. I noteced that the materials on kaboom are very simmilar to the ones I am learning in the p5js unit now in class.
 This is the code I tried:
 <img src="blob:chrome-untrusted://media-app/f9dac8bb-a354-4777-96c3-7431a0d39263" alt="Screenshot 2025-03-16 9.09.17 PM.png"/>
 
+3/31/25
+This week I continued on learning my tool by using the kaboom's website and tinkring with the examples on the playground I've tried almost all of the examples in the playground and tried to change them just like last week to see what every element does. down here is an image of some of the things that I've tried.
+<img src="blob:chrome-untrusted://media-app/eb64a0c2-775b-4e2c-a595-3ba455681b40" alt="Screenshot 2025-03-31 8.23.46 PM.png"/>
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
