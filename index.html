@@ -1,29 +1,113 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaboom Shooting Game</title>
+</head>
+<body>
+    <script type="module">
+        import kaboom from "https://unpkg.com/kaboom@latest/dist/kaboom.mjs";
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="style.css" rel="stylesheet" type="text/css" />
-        <style>
-            /* CSS */
-            
-        </style>
-        
-        <title>Title</title>
-    </head>
-    <body>
-        <!-- HTML -->
-        
-        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- <script src="script.js"></script> -->
-        <script>
-            // JS
-            
-            
-        </script>
-    </body>
+        const k = kaboom();
+
+
+        k.loadSprite("player", "assets/naruto.png"); //
+        k.loadSprite("enemy", "https://i.imgur.com/KPO3fR9.png"); // Enemy sprite
+
+        //  "Game Over" scene
+        k.scene("gameOver", () => {
+            k.add([
+                k.text("Game Over!", { size: 48 }),
+                k.pos(k.width() / 2 - 100, k.height() / 2 - 50),
+                k.color(255, 0, 0),
+            ]);
+        });
+
+        k.scene("game", () => {
+            let score = 0; // Score starts at 0
+            let enemyCount = 0; // Track total enemies
+
+            // Add score display
+            const scoreText = k.add([
+                k.text("Score: " + score, { size: 24 }),
+                k.pos(20, 20),
+            ]);
+
+            // Add enemy
+            const enemyText = k.add([
+                k.text("Enemies: " + enemyCount, { size: 24 }),
+                k.pos(20, 50),
+            ]);
+
+            // Add player
+            const player = k.add([
+                k.sprite("player", { width: 50, height: 50 }),
+                k.pos(200, k.height() - 50),
+                k.area(),
+                "player"
+            ]);
+
+            console.log("Player added:", player);
+
+            // Player movement
+            document.addEventListener("keydown", (event) => {
+                if (event.key === "ArrowLeft") player.pos.x -= 5;
+                if (event.key === "ArrowRight") player.pos.x += 5;
+                if (event.key === "ArrowUp") player.pos.y -= 5;
+                if (event.key === "ArrowDown") player.pos.y += 5;
+            });
+
+            // Shooting bullets
+            document.addEventListener("keydown", (event) => {
+                if (event.key === " ") { // Space key
+                    console.log("Bullet fired!");
+                    k.add([
+                        k.rect(10, 5),
+                        k.pos(player.pos.x + 10, player.pos.y),
+                        k.color(255, 0, 0),
+                        k.area(),
+                        k.move(k.RIGHT, 400),
+                        "bullet",
+                    ]);
+                }
+            });
+
+            // Spawn enemies and track the count
+            function spawnEnemy() {
+                k.add([
+                    k.sprite("enemy"),
+                    k.pos(k.width(), k.rand(0, k.height())),
+                    k.area(),
+                    k.move(k.LEFT, 100),
+                    "enemy",
+                ]);
+
+                enemyCount += 1; // Increase total enemies
+                enemyText.text = "Enemies: " + enemyCount;
+            }
+
+            k.loop(2, () => {
+                spawnEnemy();
+            });
+
+            k.onCollide("bullet", "enemy", (bullet, enemy) => {
+                k.destroy(bullet);
+                k.destroy(enemy);
+                score += 1; // Increase score
+                scoreText.text = "Score: " + score; // Update score
+                console.log("Enemy destroyed! Score:", score);
+            });
+
+            // Game Over when enemy touches you
+            k.onCollide("enemy", "player", () => {
+                console.log("Game Over!");
+                k.go("gameOver");
+            });
+
+        });
+
+       k.go("game");
+    </script>
+</body>
 </html>
