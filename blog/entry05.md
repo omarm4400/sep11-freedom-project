@@ -3,7 +3,17 @@
 
 # Content:
 
-After my last entry, I tried all my hardest to learn kaboom.js in a short amount of time, so I could finish with my MVP. I didn't use a lot of different resources to learn. I only watched some [videos](https://youtu.be/hMXWImAuim8?si=jtOgFdneWkkkqDhk) on YouTube, asked some friends and, of course, used the kaboom website. While learning [Kaboom.js](https://kaboomjs.com/) I have noticed that it is so similar to what I am learning right now in my Sep class because it is mostly JavaScript. My game was about a character that shoots bullets against enemies, and it counts how many enemies you killed and how many enemies are spawned. Which was all done by the use of if else, statements, functions and loops.
+After my last entry, I tried all my hardest to learn kaboom.js in a short amount of time, so I could finish with my MVP. I didn't use a lot of different resources to learn. I only watched some [videos](https://youtu.be/hMXWImAuim8?si=jtOgFdneWkkkqDhk) on YouTube, asked some friends and, of course, used the kaboom website. While learning [Kaboom.js](https://kaboomjs.com/) I have noticed that it is so similar to what I am learning right now in my Sep class because it is mostly JavaScript.
+```
+  document.addEventListener("keydown", (event) => {
+                if (event.key === "ArrowLeft") player.pos.x -= 5;
+                if (event.key === "ArrowRight") player.pos.x += 5;
+                if (event.key === "ArrowUp") player.pos.y -= 5;
+                if (event.key === "ArrowDown") player.pos.y += 5;
+            });
+```
+This is an example of an if else statment from my project, this code could be also used in my Sep calss. My project is full of these exmples. This shows how similar sep is to kaboom.js
+ My game was about a character that shoots bullets against enemies, and it counts how many enemies you killed and how many enemies are spawned. Which was all done by the use of if else, statements, functions and loops.
 
 
 
