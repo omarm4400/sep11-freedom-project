@@ -31,7 +31,7 @@
             ]);
         });
 
-        if 
+
         k.scene("game", () => {
             let score = 0; // Score starts at 0
             let enemyCount = 0; // Track total enemies
@@ -60,10 +60,10 @@
 
             // Player movement
             document.addEventListener("keydown", (event) => {
-                if (event.key === "ArrowLeft") player.pos.x -= 5;
-                if (event.key === "ArrowRight") player.pos.x += 5;
-                if (event.key === "ArrowUp") player.pos.y -= 5;
-                if (event.key === "ArrowDown") player.pos.y += 5;
+                if (event.key === "ArrowLeft") player.pos.x -= 10;
+                if (event.key === "ArrowRight") player.pos.x += 10;
+                if (event.key === "ArrowUp") player.pos.y -= 10;
+                if (event.key === "ArrowDown") player.pos.y += 10;
             });
 
             // Shooting bullets
@@ -95,7 +95,7 @@
                 enemyText.text = "Enemies: " + enemyCount;
             }
 
-            k.loop(2, () => {
+            k.loop(..2, () => {
                 spawnEnemy();
             });
 
@@ -116,6 +116,29 @@
         });
 
        k.go("game");
+
+       k.scene("gameOver", () => {
+    k.add([
+        k.text("Game Over!", { size: 48 }),
+        k.pos(k.width() / 2 - 100, k.height() / 2 - 50),
+        k.color(255, 0, 0),
+    ]);
+
+    // Restart Button
+    const restartBtn = k.add([
+        k.text("Restart", { size: 32 }),
+        k.pos(k.width() / 2 - 50, k.height() / 2 ),
+        k.area(),
+        k.color(0, 255, 0),
+        "restartButton",
+    ]);
+
+    // Restart Game when clicked
+    restartBtn.onClick(() => {
+        k.go("game"); // Go back to the game scene
+    });
+});
+
     </script>
 </body>
 </html>
