@@ -1,7 +1,7 @@
 # Presentation Plan
 
 ## Hook
-* I will be talking about other shooting games and compare them to mine.
+* I will be talking about other shooting games and compare them to mine, or I will talk about how my game could be different then others.
 
 ## Product
 * I will show a prview of my game and talk about how it works and everything you can do in it.
