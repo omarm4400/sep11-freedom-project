@@ -7,10 +7,12 @@
 * I will show a prview of my game and talk about how it works and everything you can do in it.
 
 ## Process
-* 
+* I will talk about how I leanred my tool.
+* I will talk about the challenges I had when I was learning my tool.
+* I will talk about how I created my game and what helped me creating it.
 
 ## Conclusion
-* 
+* I will talk about my takeaways and try summarize my whole project.
 
 <!-- EXAMPLE
 
