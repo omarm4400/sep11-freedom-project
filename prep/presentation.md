@@ -2,13 +2,14 @@
 
 ## Hook
 * I will be talking about other shooting games and compare them to mine, or I will talk about how my game could be different then others.
+* 
 
 ## Product
 * I will show a prview of my game and talk about how it works and everything you can do in it.
 
 ## Process
 * I will talk about how I leanred my tool.
-* I will talk about the challenges I had when I was learning my tool.
+* I will talk about the challenges I had when I was learning my tool, Like how I created my enmies and what code I used and how I went beyond mvp
 * I will talk about how I created my game and what helped me creating it.
 
 ## Conclusion
