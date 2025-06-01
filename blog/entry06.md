@@ -1,8 +1,9 @@
 # Entry 6
-##### X/X/XX
+##### 6/1/2025
 
-Text
+# Content:
 
-[Previous](entry05.md) | [Next](entry07.md)
+# Engineering Design Process:
 
-[Home](../README.md)
+# Skills:
+
