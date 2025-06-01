@@ -6,4 +6,5 @@ During my Expo elevator pitch and class presentation of my freedom project I've 
 # Engineering Design Process:
 Now I am in the last step of my Engineering design process which is to Communicate the results. I've finished my presentation including the improvment that I wanted to add from last time(byond MVP). I showed the audiance(which were my classmates) my project and got their feedback, And I should improve on it next year.
 # Skills:
+The skills that I grew were very simliar to what my takeways, like better communication because it helped my with my presentation and helped me with knowing what my classmates think of my project. Another skill I grew was practicing and learning from my mistakes because as I said I had to practice my presentation by recording and watching myself and learning from the things I did wrong so it can help my have a petter presentartion.
 
